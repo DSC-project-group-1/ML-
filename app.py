@@ -65,7 +65,7 @@ async def predict_audio_tone():
     - JSON with emotion probabilities
     """
     try:
-        file = 'record_out.wav'
+        file = '../backend/uploads/record_out.wav'
 
         # Process the audio file
         predicted_probabilities = predict_tone(file)
